@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>账户总览</title>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-全部应用备份" transform="translate(-172.000000, -131.000000)" stroke="#333333" stroke-width="2">
+            <g id="编组-3" transform="translate(162.000000, 133.000000)">
+                <g id="icon1" transform="translate(12.000000, 0.000000)">
+                    <path d="M10.3131771,3.42857143 C4.80654857,3.42857143 0.342891429,7.89257143 0.342891429,13.3988571 C0.342891429,18.9054857 4.80654857,23.3691429 10.3131771,23.3691429 C15.8198057,23.3691429 20.2834629,18.9054857 20.2834629,13.3988571 L10.3131771,13.3988571 L10.3131771,3.42857143 Z" id="icong1"></path>
+                    <path d="M13.3988914,0.342857143 C18.90552,0.342857143 23.3691771,4.80685714 23.3691771,10.3131429 L13.3988914,10.3131429 L13.3988914,0.342857143 Z" id="icong2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,106 @@
+{
+  "index": {
+    "packageid": "00010001",
+    "url": "/www/index_index.html"
+  },
+  "login": {
+    "packageid": "00010002",
+    "url": "/www/login_index.html"
+  },
+  "income-expenditure-details": {
+    "packageid": "00010003",
+    "url": "/www/income_expenditure_details_index.html"
+  },
+  "overview": {
+    "packageid": "00010004",
+    "url": "/www/overview_page_content.html"
+  },
+  "transfer": {
+    "packageid": "00010005",
+    "url": "/www/transfer_transferAccounts.html"
+  },
+  "financial": {
+    "packageid": "00010006",
+    "url": "/www/financial_index.html"
+  },
+  "set-up": {
+    "packageid": "00010007",
+    "url": "/www/set_up_set_up_content.html"
+  },
+  "near-site": {
+    "packageid": "00010008",
+    "url": "/www/near_site_index.html"
+  },
+  "all-applications": {
+    "packageid": "00010010",
+    "url": "/www/all_applications_index.html"
+  },
+  "living-expenses": {
+    "packageid": "00010009",
+    "url": "/www/living_expenses_index.html"
+  },
+  "pdf-reader": {
+    "packageid": "00010013",
+    "url": "/www/pdfReader/index.html"
+  },
+  "message": {
+    "packageid": "00010011",
+    "url": "/www/message_messageCenter.html"
+  },
+  "forgot-password": {
+    "packageid": "00010012",
+    "url": "/www/forgot_password_index.html"
+  },
+  "mine-bank-card": {
+    "packageid": "00010014",
+    "url": "/www/mine_bank_card_index.html"
+  },
+  "risk-assessment": {
+    "packageid": "00010015",
+    "url": "/www/risk_assessment_index.html"
+  },
+  "to-do-list": {
+    "packageid": "00010016",
+    "url": "/www/to_do_list_index.html"
+  },
+  "collectionCode": {
+    "packageid": "00010017",
+    "url": "/www/collectionCode_index.html"
+  },
+  "paymentCode": {
+    "packageid": "00010018",
+    "url": "/www/paymentCode_index.html"
+  },
+  "deposit": {
+    "packageid": "00010019",
+    "url": "/www/deposit_index.html"
+  },
+  "test": {
+    "packageid": "00010020",
+    "url": "/www/test_index.html"
+  },
+  "listDemo": {
+    "packageid": "00010021",
+    "url": "/www/listDemo_index.html"
+  },
+  "viewDemo": {
+    "packageid": "00010022",
+    "url": "/www/viewDemo_index.html"
+  },
+  "adsAndNotices": {
+    "packageid": "00010023",
+    "url": "/www/adsAndNotices_index.html"
+  },
+  "cloudDots": {
+    "packageid": "00010024",
+    "url": "/www/cloudDots_index.html"
+  },
+  "loan": {
+    "packageid": "00010025",
+    "url": "/www/loan_index.html"
+  },
+  "agreement": {
+    "packageid": "99999999",
+    "url": "/www/agreement_index.html"
+  }
+}

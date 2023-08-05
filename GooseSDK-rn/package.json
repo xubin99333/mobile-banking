@@ -1,0 +1,39 @@
+{
+  "name": "goose-sdk",
+  "version": "1.0.0",
+  "description": "基于rn的SDK的调用封装",
+  "keywords": [
+    "rn"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "author": "Agree Tech",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-compat": "^2.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "object-assign": "^4.1.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.15",
+    "esbuild-loader": "^2.13.1",
+    "esbuild-webpack-plugin": "^1.1.0"
+  }
+}

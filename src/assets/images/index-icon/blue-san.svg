@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片备份 7</title>
+    <defs>
+        <linearGradient x1="50%" y1="1.86591086%" x2="50%" y2="97.127167%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#709CC3" offset="51.9821579%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M28,0 C32.418278,-8.11624501e-16 36,3.581722 36,8 L36,28 C36,32.418278 32.418278,36 28,36 L8,36 C3.581722,36 5.41083001e-16,32.418278 0,28 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 L28,0 Z M15.7533182,19.6881455 L7.66513636,19.6881455 L7.66513636,27.7763273 L15.7533182,27.7763273 L15.7533182,19.6881455 Z M23.5222045,19.6879864 L19.4777955,19.6879864 L19.4777955,27.7761682 L27.5658182,27.7763273 L27.5658182,23.7320773 L23.5222045,23.7320773 L23.5222045,19.6879864 Z M15.7533182,8.11428182 L7.66513636,8.11428182 L7.66513636,16.2024636 L15.7533182,16.2024636 L15.7533182,8.11428182 Z M27.5658182,8.11428182 L19.4776364,8.11428182 L19.4776364,16.2024636 L27.5658182,16.2024636 L27.5658182,8.11428182 Z" id="path-2"></path>
+        <filter x="-11.1%" y="-11.1%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.257925725   0 0 0 0 0.257925725   0 0 0 0 0.257925725  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon4备份" transform="translate(4.000000, 4.000000)">
+            <polygon id="iconf4" fill="#FFFFFF" points="10.8345455 13.0333727 12.5845455 13.0333727 12.5845455 11.2833727 10.8345455 11.2833727"></polygon>
+            <polygon id="iconf5" fill="#FFFFFF" points="22.6470455 13.0333727 24.3970455 13.0333727 24.3970455 11.2833727 22.6470455 11.2833727"></polygon>
+            <polygon id="iconf6" fill="#FFFFFF" points="10.8345455 24.6072364 12.5845455 24.6072364 12.5845455 22.8572364 10.8345455 22.8572364"></polygon>
+            <polygon id="iconf7" fill="#FFFFFF" points="26.25 21.25 28 21.25 28 19.5 26.25 19.5"></polygon>
+            <g id="形状结合">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

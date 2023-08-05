@@ -1,0 +1,40 @@
+
+// 超出变省略号
+// 定制全局样式
+.ellipsis(@w: auto) {
+  //一行内指定宽度，超出变成省略号
+  width: @w;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  vertical-align: middle;
+}
+
+.ellipsisLn(@line) {
+  //指定行数，超出变成省略号
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: @line;
+}
+
+.text_wrap() {
+  //长单词换到下一行且不超出页面
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.hyphens() {
+  //浏览器在适当的位置自动插入连字符换行
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.text_gradient(){
+    background: -webkit-linear-gradient(left, #55B4F5, #5A83EC) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left, #55B4F5, #5A83EC) !important; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left, #55B4F5, #5A83EC) !important; /* Firefox 3.6 - 15 */
+    background: linear-gradient(left, #55B4F5, #5A83EC) !important; /* 标准的语法 */
+};

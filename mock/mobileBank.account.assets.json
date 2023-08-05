@@ -1,0 +1,35 @@
+{
+  "header": {
+      "code": 200,
+      "msg": "success",
+      "time": 1565795474543
+  },
+  "body": {
+      "assets_sum": "189.90",
+      "assets_debts": "0.00",
+      "result": [
+        {
+          "tp": "1",
+          "tpName": "借记卡",
+          "accNo": "6222222222222223212",
+          "balance": "139.90",
+          "fixedAssets": "50.00",
+          "invest": "0.00",
+          "availableMoney": 0,
+          "overdraftMoney": 0,
+          "surplusPayMoney": 0
+        },
+        {
+          "tp": "2",
+          "tpName": "借记卡",
+          "accNo": "6222222222222223212",
+          "balance": "139.90",
+          "fixedAssets": "50.00",
+          "invest": "0.00",
+          "availableMoney": 0,
+          "overdraftMoney": 0,
+          "surplusPayMoney": 0
+        }
+      ]
+  }
+}

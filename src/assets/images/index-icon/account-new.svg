@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <linearGradient x1="50%" y1="1.86591086%" x2="50%" y2="97.127167%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#709CC3" offset="50.2956081%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M32,4 C36.418278,4 40,7.581722 40,12 L40,32 C40,36.418278 36.418278,40 32,40 L12,40 C7.581722,40 4,36.418278 4,32 L4,12 C4,7.581722 7.581722,4 12,4 L32,4 Z M20.4186036,13.9642857 C15.2561393,13.9642857 11.0714607,18.1492857 11.0714607,23.3114286 C11.0714607,28.4738929 15.2561393,32.6585714 20.4186036,32.6585714 C25.5810679,32.6585714 29.7657464,28.4738929 29.7657464,23.3114286 L20.4186036,23.3114286 L20.4186036,13.9642857 Z M23.3114607,11.0714286 L23.3114607,20.4185714 L32.6586036,20.4185714 C32.6586036,15.2564286 28.473925,11.0714286 23.3114607,11.0714286 L23.3114607,11.0714286 Z" id="path-2"></path>
+        <filter x="-11.1%" y="-11.1%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.257925725   0 0 0 0 0.257925725   0 0 0 0 0.257925725  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="形状结合">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+# ESLint Ignore Files Or Directories
+
+@goose
+build
+command
+GooseSDK-rn
+GooseSDK-mPaas
+GooseSDK-AMAP
+GooseSDK-Harmony
+public-resource
+src

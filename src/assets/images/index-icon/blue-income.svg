@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片备份 6</title>
+    <defs>
+        <linearGradient x1="50%" y1="1.86591086%" x2="50%" y2="97.127167%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#709CC3" offset="52.166913%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M28,0 C32.418278,-8.11624501e-16 36,3.581722 36,8 L36,28 C36,32.418278 32.418278,36 28,36 L8,36 C3.581722,36 5.41083001e-16,32.418278 0,28 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 L28,0 Z M28.5,7.88082187 L7.83870968,7.88082187 L7.83870968,27.8964469 L28.5,27.8964469 L28.5,7.88082187 Z" id="path-2"></path>
+        <filter x="-11.1%" y="-11.1%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.257925725   0 0 0 0 0.257925725   0 0 0 0 0.257925725  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-12" transform="translate(4.000000, 4.000000)">
+            <g id="形状结合">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="icon2-copy备份" transform="translate(14.250000, 11.250000)" fill="#FFFFFF" fill-rule="nonzero">
+                <g id="qian">
+                    <polygon id="形状" points="4.70372117 12.4687686 3.53722466 12.4687686 3.53722466 9.42074092 0.0378463428 9.42074092 0.0378463428 8.20283908 3.53722466 8.20283908 3.53722466 6.3745725 0.0378463428 6.3745725 0.0378463428 5.15570228 2.88482144 5.15570228 0.0288567536 0.940437955 1.0290922 0.279369265 3.92099671 4.54626718 4.58331628 4.54626718 7.1687592 0.507556395 8.13843005 1.18553286 5.59608154 5.15566355 8.20311802 5.15566355 8.20311802 6.37455313 4.81604469 6.37455313 4.70370263 6.5491893 4.70370263 8.20281971 8.20309948 8.20281971 8.20309948 9.42072155 4.70372117 9.42072155"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

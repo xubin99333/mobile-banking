@@ -1,0 +1,20 @@
+
+.homePageBackground {
+  background: url(http://192.168.187.128:9911/155e524a-6588-4156-abcc-64f723bac796.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.minePageBackground {
+background: url(http://192.168.187.128:9911/90dacd0a-3c16-4b85-8a97-5a41f4f15879.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.majorColor {
+  color: pink
+}
+
+.deputyColor {
+  color: pink
+}

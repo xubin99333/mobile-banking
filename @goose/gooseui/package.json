@@ -1,0 +1,92 @@
+{
+  "name": "gooseui",
+  "version": "2.12.27",
+  "description": "Mobile UI Components built on Vue",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "style": "lib/index.css",
+  "typings": "types/index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "types",
+    "vetur"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "bootstrap": "yarn || npm i",
+    "dev": "goose-ui-cli dev",
+    "lint": "goose-ui-cli lint",
+    "test": "goose-ui-cli test",
+    "build": "goose-ui-cli build",
+    "release": "goose-ui-cli release",
+    "test:watch": "goose-ui-cli test --watch",
+    "build:site": "goose-ui-cli build-site",
+    "test:coverage": "open test/coverage/index.html"
+  },
+  "lint-staged": {
+    "*.md": "prettier --write",
+    "*.{ts,tsx,js,vue,less}": "prettier --write",
+    "*.{ts,tsx,js,vue}": "eslint --fix",
+    "*.{vue,css,less}": "stylelint --fix"
+  },
+  "keywords": [
+    "ui",
+    "vue",
+    "frontend",
+    "mobile ui",
+    "component",
+    "components"
+  ],
+  "author": "Agree Tech",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "7.x",
+    "@popperjs/core": "^2.5.4",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "goose-icons": "^1.5.0",
+    "vue-lazyload": "1.2.3"
+  },
+  "peerDependencies": {
+    "vue": ">= 2.6.0"
+  },
+  "devDependencies": {
+    "@goose/cli": "^2.10.3",
+    "glob": "^7.1.7",
+    "prettier": "2.1.0",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "sideEffects": [
+    "es/**/style/*",
+    "lib/**/style/*",
+    "*.css",
+    "*.less"
+  ],
+  "vetur": {
+    "tags": "vetur/tags.json",
+    "attributes": "vetur/attributes.json"
+  },
+  "web-types": "vetur/web-types.json",
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@goose"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@goose/stylelint-config"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "proseWrap": "never"
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 8"
+  ]
+}

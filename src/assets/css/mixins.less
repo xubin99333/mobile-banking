@@ -1,0 +1,504 @@
+.goose-dialog {
+  border-radius: 4px !important;
+  background-color: @white;
+
+  .goose-dialog__header {
+    height: 48px !important;
+    font-size: 17px !important;
+    font-weight: 350 !important;
+    color: @dialog-font-color !important;
+    line-height: 24px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    border-bottom: 1px solid @dialog-header-bottom-line !important;
+  }
+
+  .goose-dialog__content {
+    padding-top: 28px;
+    padding-bottom: 0 !important;
+  }
+
+  .goose-dialog__message--has-title {
+    color: @dialog-font-color !important;
+    font-size: 15px;
+    line-height: 21px;
+    padding-top: 0 !important;
+    padding-bottom: 8px!important;
+    text-align: left;
+  }
+  .goose-dialog__footer {
+    padding: 15px 20px;
+
+    .goose-dialog__cancel {
+      margin-right: 10px;
+      border: 1px solid @currency-background-color !important;
+      width: 142px !important;
+      height: 35px !important;
+      font-size: 15px !important;
+      line-height: 21px !important;
+
+      .goose-button__text {
+        color: @currency-background-color;
+      }
+    }
+    .goose-dialog__confirm {
+      background-image: @mb-button;
+      width: 142px !important;
+      height: 35px !important;
+      font-size: 15px !important;
+      line-height: 21px !important;
+
+      .goose-button__text {
+        color: @white !important;
+      }
+    }
+    // /deep/[class*='goose-hairline']::after {
+    //   border: 1px solid #ffffff !important;
+    // }
+  }
+}
+
+.goose-hairline--top::after {
+  border: none !important;
+}
+
+
+.goose-popup--center {
+  top: 48% !important;
+}
+
+.goose-icon-success::before {
+  content: '';
+  border: none;
+  width: 100%;
+  height: 100%;
+  // background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='13' height='10' viewBox='0 0 13 10'%3E%3Cdefs%3E%3Cstyle%3E.a,.b%7Bfill:none;%7D.a%7Bclip-rule:evenodd;%7D.c%7Bclip-path:url(%23a);%7D.d%7Bclip-path:url(%23b);%7D.e%7Bfill:%23ffffff;%7D%3C/style%3E%3CclipPath id='a'%3E%3Cpath class='a' d='M97.5-91.5,96-90l4,4,9-8.5L107.5-96,100-89Z'/%3E%3C/clipPath%3E%3CclipPath id='b'%3E%3Cpath class='b' d='M0-69H124v-44H0Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg class='c' transform='translate(-96 96)'%3E%3Cg class='d'%3E%3Cpath class='e' d='M91-101h23v20H91Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+// .goose-button--disabled {
+//   background: #f7ceb5 !important;
+//   border-color: #f7ceb5 !important;
+// }
+.secondContent {
+  p {
+    color: @currency-font-color;
+  }
+  span {
+    color: @currency-font-color;
+  }
+}
+.p_special_1 {
+  color: @currency-font-color;
+}
+.recommendContent {
+  .left {
+    color: @currency-font-color;
+  }
+}
+.yesterdayEarning {
+  span {
+    color: @currency-font-color;
+  }
+}
+.leftCircle {
+  border: 10px solid @currency-font-color;
+}
+.overViewHeader {
+  background: @currency-background-color;
+}
+// .goose-button--disabled {
+//   background: #f7ceb5 !important;
+//   border-color: #f7ceb5 !important;
+// }
+.calendar {
+  button {
+    background: @currency-background-color;
+    border-color: @currency-background-color;
+  }
+}
+.financial-rate {
+  color: @currency-percentage-color;
+}
+.financial-money {
+  color: @currency-money-color;
+}
+.financial-detail-money {
+  color: rgb(205, 141, 61);
+}
+.goose-cell {
+  .goose-switch--on {
+    background-color: @currency-background-color;
+  }
+}
+.recentlyButton{
+  .goose-button__text{
+    color:@currency-background-color;
+  }
+}
+.recently{
+  span{
+    color:@currency-background-color;
+  }
+}
+.businessTypesCopy{
+  .amountCashCopy{
+    background: @currency-background-color!important;
+  }
+}
+
+.businessTypes{
+  .comprehensiveBusiness{
+    background: @currency-background-color;
+  }
+}
+.bank{
+  .time{
+    color:@currency-background-color;
+  }
+}
+.cloudTeller{
+  span{
+    color: @currency-background-color;
+  }
+}
+.bankDetails{
+  .bank{
+    .bankKilomiter{
+      color: @currency-background-color;
+    }
+  }
+}
+
+// 常规按钮
+.default_button {
+  width: @default-button-width;
+  height: @default-button-height;
+  line-height: @default-button-height;
+  background-image: @gradient-blue;
+  border-radius: @default-border-radius;
+  border: none;
+  display: block;
+  margin: 60px auto 0;
+  font-size: @goose-text;
+  color: @white;
+  text-align: center;
+}
+
+// 非蓝色按钮
+.white_button {
+  background-image: @white;
+  width: @default-button-width;
+  height: @default-button-height;
+  line-height: @default-button-height;
+  // background-image: @gradient-blue;
+  border-radius: @default-border-radius;
+  border: 1px solid @mb-blue;
+  display: block;
+  margin: 20px auto 0;
+  font-size: @goose-text;
+  color: @mb-blue;
+}
+
+// 多个按钮
+.second_button{
+  width: @secondary-button-width;
+  height: @default-button-height;
+  border: 1px solid @currency-background-color;
+  background-image: @gradient-blue;
+  border-radius: @default-border-radius;
+  margin: 60px auto 0;
+  font-size: @goose-text;
+  color: @white;
+}
+
+// 结果页图片
+.result_img {
+  width: @result-img-width;
+  height: @result-img-height;
+  margin: 50px 120px 32px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// 结果页一级文字
+.result_text {
+  // margin-top: 32px;
+  font-size: @subtitle;
+  color: @black-dark;
+  text-align: center;
+}
+
+// 结果页二级文字
+.secondary_result_text {
+  font-size: @secondary-text;
+  color: @black-dark-6;
+  margin-top: 10px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+// 弹框
+.popup{
+  width: 255px;
+  height: 276px;
+  border-radius: 4px;
+  .popup_title{
+    font-size: @goose-text;
+    color: @black-dark;
+    margin: 12px 0;
+    text-align: center;
+  }
+  .popup_content{
+    // width: 100%;
+    line-height: 24px;
+    // border-top: 1px solid @gray-13;
+    font-size: @secondary-text;
+    padding: 12px 20px 20px;
+  }
+  .popup_button{
+    width: 255px;
+    height: 40px;
+    color: @currency-background-color;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+// 金额输入框
+.payInput {
+  .payTitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    height: 45px;
+    align-items: center;
+    .payCharge {
+      color: @mb-blue;
+    }
+  }
+  .inputMoney {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    align-items: center;
+    p {
+      font-size: 28px;
+    }
+    input {
+      // font-size: 20px;
+      flex-grow: 1;
+      padding-left: 8px;
+    }
+    /deep/.goose-field__control {
+      font-size: 20px !important;
+    }
+  }
+}
+
+// 摘要
+.abstract {
+  margin: 12px 17px;
+  font-size: @auxiliary-text;
+  color: @grey-dark;
+  line-height: 18px;
+}
+
+// 勾选阅读相关条款
+.box{
+  display: flex;
+  .informationOne {
+    color: @grey-dark;
+    font-size: @auxiliary-text;
+    line-height: 48px;
+    // margin-top: 15px;
+    // margin-left: 5px;
+  }
+  .agreement {
+    font-size: @auxiliary-text;
+    color: @currency-font-color;
+    text-align: right;
+  }
+  .radio {
+    margin: 12px 10px 12px 17px;
+  }
+}
+
+// 记录列表
+.recordDetail {
+  width: 100%;
+  height: 73.5px;
+  background-color: @white;
+  border-bottom: 1px solid #f3f3f3;
+  .recordDetailLeft {
+    width: 48px;
+    height: 48px;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+  }
+  .recordDetailLeftLoan {
+    width: 48px;
+    height: 48px;
+    background-color: @mb-blue;
+    border-radius: 50%;
+    margin: 20px;
+    color: @mb-blue;
+    // text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+  }
+  .recordDetailRight {
+    float: left;
+    text-align: left;
+    i {
+      font-size: @goose-text;
+      // font-weight: bold;
+      margin-left: 10px;
+    }
+    .name {
+      display: inline-block;
+      font-size: @goose-text;
+      // font-weight: bold;
+      margin: 15.5px 0 0 0;
+    }
+    .text {
+      font-family: PingFangSC-Medium;
+      font-size: @auxiliary-text;
+      color: @black-dark;
+      letter-spacing: 0;
+      margin: 10px 0 0 10px;
+    }
+    .time {
+      font-family: PingFangSC-Regular;
+      font-size: @label-text;
+      color: @grey-dark;
+      letter-spacing: 0;
+      margin: 10px 0 0 0;
+    }
+  }
+  .recordDetailMoney {
+    float: right;
+    margin: 25.5px 20px 0 0px;
+    .blue {
+      color: @blue;
+    }
+    .red {
+      color: @red;
+    }
+    .font12 {
+      font-size: @goose-text;
+      text-align: right;
+    }
+    .money {
+      font-size: @goose-text;
+      // color: @black-dark;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+
+.apps{
+  background-color: @light-grey-2f;
+  height: 100%;
+  overflow: auto;
+}
+
+// 列表详情
+.top{
+  height: 78.5px;
+  background-color: @white;
+  .transflow{
+    height: 15px;
+    color: @grey-dark;
+    padding: 13.5px 0 25px 15px;
+    font-size: @label-text;
+  }
+  .payto{
+    padding-left: 15px;
+    font-size: @secondary-text;
+    height: 22px;
+    line-height: 22px;
+    .transfer{
+      display: inline-block;
+      width: 45px;
+      height: 18px;
+      line-height: 18px;
+      background-color: @mb-blue;
+      border-radius: 2px;
+      vertical-align: text-top;
+      .transferBank{
+        text-align: center;
+        font-size: 9px;
+        color: @white;
+      }
+    }
+  }
+}
+.header{
+  // height: 190px;
+  .statement{
+    padding-top: 10px;
+    text-align: center;
+    .w_bankImg{
+      padding-top: 20px;
+      display: inline-block;
+    }
+    .font{
+      font-size: @subtitle;
+      display: inline-block;
+      padding: 0 5px;
+      .success{
+        color: @mb-blue;
+      }
+    }
+  }
+  .formalities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: @auxiliary-text;
+    .money{
+      font-family: PingFangSC-Medium;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-size: 28px;
+      // color: @mb-blue;
+    }
+    .charge{
+      color: @grey-dark;
+    }
+    .total{
+      padding-top: 10px;
+    }
+  }
+}
+.payee{
+  margin-top: 24px;
+  .paymessage{
+  height: 35px;
+  background-color: @white;
+  line-height: 35px;
+  font-size: @subtitle;
+  }
+  .leave{
+  height: 90px;
+  background-color: @white;
+  padding-left: 15px;
+  padding-top: 14.5px;
+  color: @black-dark;
+  font-size: @goose-text;
+  }
+  .processNodes{
+    color: @mb-blue;
+  }
+}
