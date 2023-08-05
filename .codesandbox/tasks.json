@@ -1,0 +1,71 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 8088
+      }
+    },
+    "dev:device": {
+      "name": "dev:device",
+      "command": "yarn dev:device",
+      "runAtStart": false
+    },
+    "init-package": {
+      "name": "init-package",
+      "command": "yarn init-package",
+      "runAtStart": false
+    },
+    "init-page": {
+      "name": "init-page",
+      "command": "yarn init-page",
+      "runAtStart": false
+    },
+    "init-component": {
+      "name": "init-component",
+      "command": "yarn init-component",
+      "runAtStart": false
+    },
+    "dev:mock": {
+      "name": "dev:mock",
+      "command": "yarn dev:mock",
+      "runAtStart": false
+    },
+    "report": {
+      "name": "report",
+      "command": "yarn report",
+      "runAtStart": false
+    },
+    "build-multiple": {
+      "name": "build-multiple",
+      "command": "yarn build-multiple",
+      "runAtStart": false
+    },
+    "all-packages-build": {
+      "name": "all-packages-build",
+      "command": "yarn all-packages-build",
+      "runAtStart": false
+    },
+    "build-module": {
+      "name": "build-module",
+      "command": "yarn build-module",
+      "runAtStart": false
+    }
+  }
+}

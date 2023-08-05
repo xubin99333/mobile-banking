@@ -304,6 +304,7 @@ module.exports = {
     port: 8088,
     host: '0.0.0.0',
     https: false,
+    disableHostCheck: true,
     before (app) {
       app.use(express.static(path.resolve(__dirname, 'public-resource')))
       // 启用Mock服务
