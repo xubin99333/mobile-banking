@@ -20,12 +20,8 @@
           alt=""
         />
         <div class="godetail_img">
-          <img
-            class="go_img"
-            src="@/assets/images/index/triangle.svg"
-            alt=""
-          />
-          <p>远程柜员</p>
+          <img class="go_img" src="@/assets/images/index/triangle.svg" alt="" />
+          <p>远程柜员sss</p>
         </div>
       </div>
 
@@ -60,7 +56,7 @@ export default {
     Mine
   },
   mixins: [CommonMixin],
-  data () {
+  data() {
     return {
       //获取登录方式参数
       loginType: {},
@@ -101,7 +97,7 @@ export default {
       ]
     }
   },
-  created () {
+  created() {
     CommonUtil.getLoginType()
       .then(res => {
         this.loginType = res
@@ -114,12 +110,12 @@ export default {
         this.getLoginState(e)
       })
   },
-  mounted () {
+  mounted() {
     // 添加resume监听事件
     this.$goose.on('resume', this.resumeHomePage)
   },
   methods: {
-    getLoginState (typeParam) {
+    getLoginState(typeParam) {
       let target = {
         param: {
           loginType: typeParam,
@@ -151,18 +147,18 @@ export default {
           console.log('首页判断是否登陆-------' + this.isLogin)
         })
     },
-    toRootPage () {
+    toRootPage() {
       this.isActive = '1'
       this.currentComp = 'HomePage'
       this.num = '1'
     },
-    getEyeFun (msg) {
+    getEyeFun(msg) {
       this.showeye = msg
     },
-    getLoginStateFn (msg) {
+    getLoginStateFn(msg) {
       this.isLogin = msg
     },
-    handleTab (item) {
+    handleTab(item) {
       this.isActive = item.value
       this.currentComp = item.comp
       this.num = item.value
@@ -172,7 +168,7 @@ export default {
      * @description 监听页面进入resume
      * @author 王哲
      */
-    resumeHomePage () {
+    resumeHomePage() {
       console.log('首页进入监听')
       CommonUtil.getLoginType()
         .then(res => {
